@@ -16,7 +16,7 @@ end
 
 print "人数を入力>"
 num = gets.to_i
-if plan_num = 1
+if plan_num == 1
   puts "合計料金：￥#{num * 10000}"
 elsif plan_num == 2
   puts "合計料金：￥#{num * 20000}"
